@@ -6,7 +6,7 @@
       <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 <meta name="generator" content="Hugo 0.40.3" />
-<title>Present a Slide :: PrenerLab</title>
+<title> :: PrenerLab</title>
 <link rel="shortcut icon" href="/images/favicon.png" type="image/x-icon" />
 <link href="/css/font-awesome.min.css" rel="stylesheet">
 <link href="/css/nucleus.css" rel="stylesheet">
@@ -30,7 +30,7 @@
 
     
   </head>
-  <body data-url="/create-page/page-slide/">
+  <body data-url="/_footer/">
     
       <header>
   <div class="logo">
@@ -111,11 +111,10 @@
     </li>
         </ul>
     </li>
-    <li data-nav-id="/create-page/" class="dd-item parent haschildren
+    <li data-nav-id="/create-page/" class="dd-item haschildren
         ">
       <div>
-      <a href="/create-page/"><i class='fa fa-edit' ></i> Create Page</a>
-            <i class="fa fa-angle-down fa-lg category-icon"></i><i class="fa fa-circle-thin read-icon"></i>
+      <a href="/create-page/"><i class='fa fa-edit' ></i> Create Page</a><i class="fa fa-angle-right fa-lg category-icon"></i><i class="fa fa-circle-thin read-icon"></i>
       </div>
         <ul>
       <li data-nav-id="/create-page/homepage/" class="dd-item">
@@ -132,7 +131,7 @@
           </a><i class="fa fa-circle-thin read-icon"></i>
         </div>
     </li>
-      <li data-nav-id="/create-page/page-slide/" class="dd-item active">
+      <li data-nav-id="/create-page/page-slide/" class="dd-item">
         <div>
           <a href="/create-page/page-slide/">
             Present a Slide
@@ -389,11 +388,7 @@
       <option value="/getting-start/configuration/" >- Configuration</option>
   
     <option value="/create-page/" >
-   Create Page</option> 
-      <option value="/create-page/homepage/" >- Home page</option>
-      <option value="/create-page/page-images/" >- About images</option>
-      <option value="/create-page/page-slide/"  selected>- Present a Slide</option>
-  
+   Create Page</option>
     <option value="/content-organisation/" >
    Content Organisation</option>
     <option value="/shortcodes/" >
@@ -422,140 +417,18 @@
       </div>
     
 
-    <h1>Present a Slide</h1>
+    <h1></h1>
     
     
     
-    
-
-<p>A basic md content page can be rendered as a reveal.js presentation full screen.</p>
-
-<div class="alert 
-	alert-info"
- 
-role="alert">You can, also, <strong>embed presentation in a page</strong> as a small box, using the <a href="/shortcodes/revealjs/">revealjs</a> shortcode in your md file.</div>
-
-
-<h2 id="formating">Formating</h2>
-
-<p>Use your common Markdown syntax you use in Hugo, don&rsquo;t forget, you can put html tags too.</p>
-
-<div class="notices info" ><p>Special syntax (in html comment) is available for adding attributes to Markdown elements. This is useful for fragments, amongst other things.</p>
-</div>
-
-
-<p>Please read the <a href="https://github.com/hakimel/reveal.js/#instructions">
-
-<span class="glyphicon glyphicon-book" aria-hidden="true"></span>
-
- doc from hakimel</a></p>
-
-<h2 id="options">Options</h2>
-
-<p>In the frontmatter of your page file, set <strong>type</strong> and <strong>revealOptions</strong> params</p>
-
-<p>Your content will be served as a fullscreen revealjs presentation and revealOptions will be used to ajust its behaviour.</p>
-
-<pre><code>+++
-title = &quot;Test slide&quot;
-type=&quot;slide&quot;
-
-theme = &quot;league&quot;
-[revealOptions]
-transition= 'concave'
-controls= true
-progress= true
-history= true
-center= true
-+++
-</code></pre>
-
-<p><a href="https://github.com/hakimel/reveal.js/#configuration">read more about reveal options here</a></p>
-
-<h2 id="slide-delimiters">Slide Delimiters</h2>
-
-<p>When creating the content for your slideshow presentation within content markdown file you need to be able to distinguish between one slide and the next. This is achieved very simply using a  convention within Markdown that indicates the start of each new slide.</p>
-
-<p>As both horizontal and vertical slides are supported by reveal.js each has it&rsquo;s own unique delimiter.</p>
-
-<p>To denote the start of a horizontal slide simply add the following delimiter in your Markdown:</p>
-
-<pre><code>---
-</code></pre>
-
-<p>To denote the start of a vertical slide simply add the following delimiter in your Markdown:</p>
-
-<pre><code>___
-</code></pre>
-
-<p>By using a combination of horizontal and vertical slides you can customize the navigation within your slideshow presentation. Typically vertical slides are used to present information below a top-level horizontal slide.</p>
-
-<p>For example, a very simple slideshow presentation can be created as follows</p>
-
-<pre><code>+++
-
-title = &quot;test&quot;
-date = &quot;2017-04-24T18:36:24+02:00&quot;
-type=&quot;slide&quot;
-
-theme = &quot;league&quot;
-[revealOptions]
-transition= 'concave'
-controls= true
-progress= true
-history= true
-center= true
-+++
-
-# In the morning
-
-___
-
-## Getting up
-
-- Turn off alarm
-- Get out of bed
-
-___
-
-## Breakfast
-
-- Eat eggs
-- Drink coffee
-
----
-
-# In the evening
-
-___
-
-## Dinner
-
-- Eat spaghetti
-- Drink wine
-
-___
-
-## Going to sleep
-
-- Get in bed
-- Count sheep
-
-</code></pre>
-
-<p><a href="/create-page/myslide/">
-
-<span class="glyphicon glyphicon-expand" aria-hidden="true"></span>
-
-click here to view this page rendered</a></p>
+    <p>&copy; 2018 Licensed under a CC BY-SA 4.0 License – Website built with Blogdown and Hugo using a fork of the DocDock theme.</p>
 
 
     
     
         <div class="chevrons">
     <div id="navigation">
-<a class="nav nav-prev" href="/create-page/page-images/" title="About images"> <i class="fa fa-chevron-left"></i><label>About images</label></a>
-    <a class="nav nav-next" href="/content-organisation/" title="Content Organisation" style="margin-right: 0px;"><label>Content Organisation</label><i class="fa fa-chevron-right"></i></a></div>
+<a class="nav nav-next" href="/getting-start/" title="Getting started" style="margin-right: 0px;"><label>Getting started</label><i class="fa fa-chevron-right"></i></a></div>
   </div>
 
   </section>
@@ -569,13 +442,9 @@ click here to view this page rendered</a></p>
     
 
   
-    <div class="date">
-        <i class='fa fa-calendar'></i> Last update on 24/04/2017
-    </div>
-    
 
     <div class="github-link">
-      <a href="https://github.com/vjeantet/hugo-theme-docdock/edit/master/exampleSite/content/create-page/page-slide.md" target="blank"><i class="fa fa-code-fork"></i>
+      <a href="https://github.com/vjeantet/hugo-theme-docdock/edit/master/exampleSite/content/_footer.md" target="blank"><i class="fa fa-code-fork"></i>
         Improve this page</a>
     </div>
   </div>

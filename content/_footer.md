@@ -1,0 +1,1 @@
+&copy; 2018 Licensed under a CC BY-SA 4.0 License – Website built with Blogdown and Hugo using a fork of the DocDock theme.

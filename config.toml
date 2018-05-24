@@ -1,4 +1,4 @@
-baseURL = "/"
+baseURL = "https://prenerlab.github.io/"
 
 languageCode = "en-us"
 DefaultContentLanguage = "en"
@@ -45,23 +45,32 @@ home = [ "HTML", "RSS", "JSON"]
 
 [[menu.shortcuts]]
 pre = "<h3>More</h3>"
-name = "<i class='fa fa-github'></i> <label>Github repo</label>"
+name = "<i class='fas fa-code-branch fa-lg'></i> <label>&nbsp;Github repo</label>"
 identifier = "ds"
-url = "https://github.com/vjeantet/hugo-theme-docdock"
+url = "https://github.com/prenerLab/prenerlab.github.io"
 weight = 10
 
-# [[menu.shortcuts]]
-# name = "<i class='fa fa-cloud-download'></i> <label>Download</label>"
-# url = "https://github.com/vjeantet/hugo-theme-docdock/archive/master.zip"
-# weight = 11
-
-# [[menu.shortcuts]]
-# name = "<i class='fa fa-bookmark'></i> <label>Hugo Documentation</label>"
-# identifier = "hugodoc"
-# url = "https://gohugo.io/"
-# weight = 20
+[[menu.shortcuts]]
+name = "<i class='fab fa-github fa-lg'></i> <label>&nbsp;Github org</label>"
+url = "https://github.com/prenerLab/"
+weight = 11
 
 [[menu.shortcuts]]
-name = "<i class='fa fa-bullhorn'></i> <label>Credits</label>"
+name = "<i class='ai ai-osf ai-lg'></i> <label>&nbsp;OSF</label>"
+url = "https://osf.io/"
+weight = 12
+
+[[menu.shortcuts]]
+name = "<i class='fab fa-slack-hash fa-lg'></i> <label>&nbsp;Slack</label>"
+url = "https://prenerlab.slack.com/"
+weight = 13
+
+[[menu.shortcuts]]
+name = "<i class='fab fa-trello fa-lg'></i> <label>&nbsp;Trello</label>"
+url = "http://trello.com"
+weight = 14
+
+[[menu.shortcuts]]
+name = "<i class='fa fa-bullhorn fa-lg'></i> <label>Credits</label>"
 url = "/credits"
 weight = 30

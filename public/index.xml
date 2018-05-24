@@ -101,6 +101,15 @@ Special syntax (in html comment) is available for adding attributes to Markdown 
     </item>
     
     <item>
+      <title></title>
+      <link>/_footer/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/_footer/</guid>
+      <description>&amp;copy; 2018 Licensed under a CC BY-SA 4.0 License – Website built with Blogdown and Hugo using a fork of the DocDock theme.</description>
+    </item>
+    
+    <item>
       <title>Credits</title>
       <link>/credits/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
