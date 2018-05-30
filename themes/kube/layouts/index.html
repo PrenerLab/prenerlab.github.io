@@ -1,0 +1,58 @@
+{{ define "title"}} {{ .Site.Title}} {{end}}
+{{ define "header"}} {{ partial "header" .}} {{end}}
+{{ define "main"}}
+
+<div id="main">
+  <div id="hero">
+    <h1>{{.Title}}</h1>
+    <p>{{.Description}}</p>
+  </div>
+  <div id="action-buttons">
+    <a class="button outline big" href="https://github.com/prenerLab/" target="_blank"><i class="fab fa-github"></i>prenerLab on Github</a> <a class="button primary big" href="https://github.com/prenerLab/prenerlab.github.io/" target="_blank"><i class="fas fa-code-branch"></i> Contribute to Docs</a>
+  </div>
+  <div id="kube-features">
+    <div class="row gutters">
+      <div class="col col-4 item">
+        <figure>
+          <i class="fas fa-book fa-3x"></i>
+        </figure>
+        <h3><a href="/blog">Meta</a></h3>
+        <p>High-level documentation about how we piece tools and techniques together to produce research.</p>
+      </div>
+      <div class="col col-4 item">
+        <figure>
+          <i class="fas fa-file-alt fa-3x"></i>
+        </figure>
+        <h3><a href="/docs">Docs</a></h3>
+        <p>Low-level documentation about how we use individual tools and techniques.</p>
+      </div>
+      <div class="col col-4 item">
+        <figure>
+         <i class="fas fa-question-circle fa-3x"></i>
+        </figure>
+        <h3><a href="/faq">FAQ</a></h3>
+        <p>Answers to some general questions, including about joining my team and our current research projects.</p>
+      </div>
+    </div>
+    <div class="row gutters">
+      <div class="col col-4 item">
+        <figure> 
+          <i class="fas fa-user-circle fa-3x"></i>
+        </figure>
+        <h3>About Chris</h3>
+        <p>Every element in kube is mobile-first and fully embraces latest and greatest tech.</p>
+      </div>
+      <div class="col col-4 item">
+        <h4>Cross-browser</h4>
+        <p>Kube works in all modern browsers, both desktop and mobile, including latest Chrome, Firefox, Safari, Opera, IE and Edge.</p>
+      </div>
+      <div class="col col-4 item">
+        <h4>License</h4>
+        <p>Kube licensed under <a href="https://opensource.org/licenses/MIT">MIT</a>.<br>
+      Kube Framework is absolutely free for personal or commercial use.</p>
+    </div>
+  </div>
+</div>
+</div>
+{{ end }}
+{{ define "footer"}} {{ partial "footer" .}} {{end}}
