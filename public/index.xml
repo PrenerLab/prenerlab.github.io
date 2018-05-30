@@ -310,34 +310,25 @@ invisible  But you can see this div because it has visible class.</description>
     </item>
     
     <item>
-      <title>Company</title>
-      <link>/company/</link>
+      <title>License</title>
+      <link>/license/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/company/</guid>
+      <guid>/license/</guid>
+      <description>Copyright &amp;copy; 2018 Christopher G. Prener
+This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.
+This is a human-readable summary of (and not a substitute for) the license.
+You are free to:
+ Share — copy and redistribute the material in any medium or format Adapt — remix, transform, and build upon the material, even commercially.  The licensor cannot revoke these freedoms as long as you follow the license terms.</description>
+    </item>
+    
+    <item>
+      <title>Tools</title>
+      <link>/tools/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/tools/</guid>
       <description></description>
-    </item>
-    
-    <item>
-      <title>Password Recovery</title>
-      <link>/password-recovery/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/password-recovery/</guid>
-      <description>Your email    Send Back to Log In
- </description>
-    </item>
-    
-    <item>
-      <title>Sign In</title>
-      <link>/account/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/account/</guid>
-      <description>Email   Password   Log in
-Forgot password?
-If you have any questions about authorization or you&#39;re our customer but haven&#39;t receive your login credentials, just send us a short email at support@company.com and we&#39;ll fix it right away.
- </description>
     </item>
     
   </channel>
